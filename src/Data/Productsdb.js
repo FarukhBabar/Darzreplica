@@ -78,7 +78,7 @@ let ProductsDb = [
     },
     {
         "id":8,
-        "title":"PERSONALIZED/ <br /> CUSTOMIZE NAME",
+        "title":"PERSONALIZED CUSTOMIZE NAME",
         "price":4.320,
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "image":"https://static-01.daraz.pk/p/09ee8ecccbcccf486f8417345fae7210.jpg_400x400q75-product.jpg_.webp",
@@ -210,7 +210,7 @@ let ProductsDb = [
     },
     {
         "id":20,
-        "title":"PERSONALIZED/ <br /> CUSTOMIZE NAME",
+        "title":"PERSONALIZED CUSTOMIZE NAME",
         "price":4.320,
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "image":"https://static-01.daraz.pk/p/09ee8ecccbcccf486f8417345fae7210.jpg_400x400q75-product.jpg_.webp",
@@ -342,7 +342,7 @@ let ProductsDb = [
     },
     {
         "id":32,
-        "title":"PERSONALIZED/ <br /> CUSTOMIZE NAME",
+        "title":"PERSONALIZED/  CUSTOMIZE NAME",
         "price":4.320,
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "image":"https://static-01.daraz.pk/p/09ee8ecccbcccf486f8417345fae7210.jpg_400x400q75-product.jpg_.webp",
