@@ -106,8 +106,8 @@ const Singlepage = () => {
         nevigate("/login")
     }
     const handleAddToCart = () => {
-          addToCart({ ...fdata, qty }); // Use fdata instead of item
-          setqty(1); // Reset quantity to 1 after adding to cart
+          addToCart({ ...fdata, qty });
+          setqty(1);
         };
     return (
         <div className=''><div className="container ">
@@ -119,7 +119,7 @@ const Singlepage = () => {
                     <h6 className="card-subtitle">{fdata.category}</h6>
                     <div className="row">
                         <div className="col-lg-5 col-md-5 col-sm-6">
-                            <div className="white-box text-center mt-3"><img src={fdata.image} height={400} width={400} className="img-responsive rounded" /></div>
+                            <div className="white-box text-center mt-3"><img src={fdata.image} height={400} width={400} className="img-responsive rounded asdf" /></div>
                         </div>
                         <div className="col-lg-7 col-md-7 col-sm-6">
                             <h4 className="box-title mt-5">Product description</h4>
@@ -140,7 +140,7 @@ const Singlepage = () => {
                                     {/* <button onClick={handleAddToCart}>Add To Cart</button> */}
                                     <button className="btn btn1 btn-rounded mr-1 buy" onClick={handleAddToCart} data-toggle="tooltip" title data-original-title="Add to cart">Add To Cart</button>
                            
-                            <button className="btn bt2 btn-rounded ms-3 buy" onClick={buynow}>Buy Now</button>
+                            <button className="btn bt2 btn-rounded ms-3 buye" onClick={buynow}>Buy Now</button>
                             {/* <h3 className="box-title mt-5">Key Highlights</h3>
                             <ul className="list-unstyled">
                                 <li><i className="fa fa-check text-success" />Sturdy structure</li>

@@ -55,9 +55,9 @@ const Productsinglepage = () => {
                     <h6 className="card-subtitle">{product.title}</h6>
                     <div className="row">
                         <div className="col-lg-5 col-md-5 col-sm-6">
-                            <div className="white-box text-center mt-3">
+                            <div className="white-box  text-center mt-3">
                               { (
-                             <img src={`http://localhost:8080/${product.image ?.replace(/\\/g, '/')}`} alt="" />
+                             <img src={`http://localhost:8080/${product.image ?.replace(/\\/g, '/')}`} alt="" className='asdf' />
                              )}
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const Productsinglepage = () => {
                             </div>
                             <h3 className="text-danger">Total Amount: ${product.price * qty}</h3>
                             <button className="btn btn1 btn-rounded mr-1 buy" data-toggle="tooltip"  onClick={handleAddToCart} title data-original-title="Add to cart">Add To Cart</button>
-                            <button className="btn bt2 btn-rounded ms-3 buy" onClick={buyNow}>Buy Now</button>
+                            <button className="btn bt2 btn-rounded ms-3 buye" onClick={buyNow}>Buy Now</button>
                         </div>
                     </div>
                 </div>

@@ -22,7 +22,10 @@
     color: red;
 }
 .buy{
-    width: 300px !important;
+    width: 200px !important;
+}
+.buye{
+    width: 200px !important;
 }
 .imm{
     border-radius: 10px;
